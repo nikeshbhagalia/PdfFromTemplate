@@ -7,8 +7,8 @@ namespace PdfFromTemplate
     {
         public static void ReplacePdfForm()
         {
-            string fileNameExisting = @"C:\path\to\existing.pdf";
-            string fileNameNew = @"C:\path\to\new.pdf";
+            var fileNameExisting = @"C:\path\to\existing.pdf";
+            var fileNameNew = @"C:\path\to\new.pdf";
 
             using (var existingFileStream = new FileStream(fileNameExisting, FileMode.Open))
             using (var newFileStream = new FileStream(fileNameNew, FileMode.Create))
