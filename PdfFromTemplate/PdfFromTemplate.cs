@@ -22,7 +22,7 @@ namespace PdfFromTemplate
                 var form = stamper.AcroFields;
                 var fieldKeys = form.Fields.Keys;
 
-                foreach (string fieldKey in fieldKeys)
+                foreach (var fieldKey in fieldKeys)
                 {
                     form.SetField(fieldKey, "REPLACED!");
                 }
