@@ -8,7 +8,7 @@ namespace PdfFromTemplate.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class PdfController : ControllerBase
     {
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
