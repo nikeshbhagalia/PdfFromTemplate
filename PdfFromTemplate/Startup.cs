@@ -54,7 +54,7 @@ namespace PdfFromTemplate
 
                 app.UseSwaggerUI(c =>
                 {
-                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Pdf From Template API V1");
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Pdf From Template API");
                     c.RoutePrefix = string.Empty;
                 });
             }
