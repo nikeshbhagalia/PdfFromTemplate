@@ -21,10 +21,5 @@ namespace PdfFromTemplate.Controllers
         {
             return "value";
         }
-
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
     }
 }
