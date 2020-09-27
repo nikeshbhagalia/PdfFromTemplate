@@ -13,7 +13,6 @@ namespace PdfFromTemplate
             using (var existingFileStream = new FileStream(fileNameExisting, FileMode.Open))
             using (var newFileStream = new FileStream(fileNameNew, FileMode.Create))
             {
-                // Open existing PDF
                 var pdfReader = new PdfReader(existingFileStream);
 
                 // PdfStamper, which will create
