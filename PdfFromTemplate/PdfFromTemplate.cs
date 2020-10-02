@@ -3,7 +3,7 @@ using System.IO;
 
 namespace PdfFromTemplate
 {
-    public class Test
+    public class PdfFromTemplate
     {
         public static void ReplacePdfForm()
         {
