@@ -26,7 +26,6 @@ namespace PdfFromTemplate
                     form.SetField(fieldKey, "REPLACED!");
                 }
 
-                // "Flatten" the form so it wont be editable/usable anymore
                 stamper.FormFlattening = true;
 
                 // You can also specify fields to be flattened, which
